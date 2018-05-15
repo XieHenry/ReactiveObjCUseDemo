@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B325E9C209B4FF400DB04A7 /* LiftSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B325E9B209B4FF400DB04A7 /* LiftSelectorViewController.m */; };
+		5B4B8426208602B40070098E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B8425208602B40070098E /* AppDelegate.m */; };
+		5B4B842E208602BE0070098E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B842D208602BE0070098E /* Assets.xcassets */; };
+		5B4B8431208602BE0070098E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B842F208602BE0070098E /* LaunchScreen.storyboard */; };
+		5B4B8434208602BE0070098E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B8433208602BE0070098E /* main.m */; };
+		5B4B843C208607CB0070098E /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B843B208607CB0070098E /* RACSignalViewController.m */; };
+		5B4B843F2086080D0070098E /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B843E2086080D0070098E /* RACSubjectViewController.m */; };
+		5B4B8445208608640070098E /* NSArrayAndDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B8444208608640070098E /* NSArrayAndDictionaryViewController.m */; };
+		5B4B8448208608740070098E /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B8447208608740070098E /* TextFieldViewController.m */; };
+		5B4E1125209C31030054C3C9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4E1124209C31030054C3C9 /* BaseViewController.m */; };
+		5B4E1128209C40F30054C3C9 /* RacHongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4E1127209C40F30054C3C9 /* RacHongViewController.m */; };
+		5B4E112C209C64AD0054C3C9 /* RACMulticastConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4E112B209C64AD0054C3C9 /* RACMulticastConnectionVC.m */; };
+		5B50E3F2209D82C40037B7ED /* BindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50E3F1209D82C40037B7ED /* BindViewController.m */; };
+		5B7256AD20A0215A00B8F562 /* RACZuheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7256AC20A0215A00B8F562 /* RACZuheViewController.m */; };
+		5B7256B220A040E900B8F562 /* RACGuolvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7256B120A040E900B8F562 /* RACGuolvViewController.m */; };
+		5B81E311208634D00054E6FA /* ButtonClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81E310208634D00054E6FA /* ButtonClickViewController.m */; };
+		5B81E3192086369F0054E6FA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81E3182086369F0054E6FA /* HomeViewController.m */; };
+		5BA0622420948032009DF545 /* SubjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0622320948032009DF545 /* SubjectView.m */; };
+		5BA0622820948FAE009DF545 /* kfc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BA0622720948FAE009DF545 /* kfc.plist */; };
+		5BA0622B20949062009DF545 /* KFC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0622A20949062009DF545 /* KFC.m */; };
+		5BC1E98420999A9D00BC025E /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1E98320999A9D00BC025E /* DelegateView.m */; };
+		5BF93EF120871E2700783CAE /* LoginButtonClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF93EF020871E2700783CAE /* LoginButtonClickViewController.m */; };
+		5BF93EF4208722BC00783CAE /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF93EF3208722BC00783CAE /* NotificationViewController.m */; };
+		5BF93EF7208722E500783CAE /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF93EF6208722E500783CAE /* DelegateViewController.m */; };
+		5BF93EFA2087231800783CAE /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF93EF92087231800783CAE /* KVOViewController.m */; };
+		5BF93EFD2087234200783CAE /* NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF93EFC2087234200783CAE /* NSTimerViewController.m */; };
+		A59A29E905248FD4C19551E6 /* libPods-ReactiveObjCUseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F03CEA4D0A99549B156DAA2 /* libPods-ReactiveObjCUseDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C5F15A2A161F08764C1C38D /* Pods-ReactiveObjCUseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCUseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjCUseDemo/Pods-ReactiveObjCUseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B325E9A209B4FF400DB04A7 /* LiftSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftSelectorViewController.h; sourceTree = "<group>"; };
+		5B325E9B209B4FF400DB04A7 /* LiftSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiftSelectorViewController.m; sourceTree = "<group>"; };
+		5B4B8421208602B40070098E /* ReactiveObjCUseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveObjCUseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B8424208602B40070098E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B4B8425208602B40070098E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B4B842D208602BE0070098E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B4B8430208602BE0070098E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B4B8432208602BE0070098E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4B8433208602BE0070098E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B4B843A208607CB0070098E /* RACSignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignalViewController.h; sourceTree = "<group>"; };
+		5B4B843B208607CB0070098E /* RACSignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalViewController.m; sourceTree = "<group>"; };
+		5B4B843D2086080D0070098E /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
+		5B4B843E2086080D0070098E /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
+		5B4B8443208608640070098E /* NSArrayAndDictionaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArrayAndDictionaryViewController.h; sourceTree = "<group>"; };
+		5B4B8444208608640070098E /* NSArrayAndDictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayAndDictionaryViewController.m; sourceTree = "<group>"; };
+		5B4B8446208608740070098E /* TextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
+		5B4B8447208608740070098E /* TextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
+		5B4E1123209C31030054C3C9 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5B4E1124209C31030054C3C9 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5B4E1126209C40F30054C3C9 /* RacHongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacHongViewController.h; sourceTree = "<group>"; };
+		5B4E1127209C40F30054C3C9 /* RacHongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacHongViewController.m; sourceTree = "<group>"; };
+		5B4E112A209C64AD0054C3C9 /* RACMulticastConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMulticastConnectionVC.h; sourceTree = "<group>"; };
+		5B4E112B209C64AD0054C3C9 /* RACMulticastConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMulticastConnectionVC.m; sourceTree = "<group>"; };
+		5B50E3F0209D82C40037B7ED /* BindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindViewController.h; sourceTree = "<group>"; };
+		5B50E3F1209D82C40037B7ED /* BindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindViewController.m; sourceTree = "<group>"; };
+		5B7256AB20A0215A00B8F562 /* RACZuheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACZuheViewController.h; sourceTree = "<group>"; };
+		5B7256AC20A0215A00B8F562 /* RACZuheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACZuheViewController.m; sourceTree = "<group>"; };
+		5B7256B020A040E900B8F562 /* RACGuolvViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACGuolvViewController.h; sourceTree = "<group>"; };
+		5B7256B120A040E900B8F562 /* RACGuolvViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACGuolvViewController.m; sourceTree = "<group>"; };
+		5B81E30F208634D00054E6FA /* ButtonClickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonClickViewController.h; sourceTree = "<group>"; };
+		5B81E310208634D00054E6FA /* ButtonClickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonClickViewController.m; sourceTree = "<group>"; };
+		5B81E313208635030054E6FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5B81E3172086369F0054E6FA /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5B81E3182086369F0054E6FA /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5BA0622220948032009DF545 /* SubjectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectView.h; sourceTree = "<group>"; };
+		5BA0622320948032009DF545 /* SubjectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectView.m; sourceTree = "<group>"; };
+		5BA0622720948FAE009DF545 /* kfc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kfc.plist; sourceTree = "<group>"; };
+		5BA0622920949062009DF545 /* KFC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFC.h; sourceTree = "<group>"; };
+		5BA0622A20949062009DF545 /* KFC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFC.m; sourceTree = "<group>"; };
+		5BC1E98220999A9D00BC025E /* DelegateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
+		5BC1E98320999A9D00BC025E /* DelegateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateView.m; sourceTree = "<group>"; };
+		5BF93EEF20871E2700783CAE /* LoginButtonClickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginButtonClickViewController.h; sourceTree = "<group>"; };
+		5BF93EF020871E2700783CAE /* LoginButtonClickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonClickViewController.m; sourceTree = "<group>"; };
+		5BF93EF2208722BC00783CAE /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		5BF93EF3208722BC00783CAE /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		5BF93EF5208722E500783CAE /* DelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		5BF93EF6208722E500783CAE /* DelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		5BF93EF82087231800783CAE /* KVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		5BF93EF92087231800783CAE /* KVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		5BF93EFB2087234200783CAE /* NSTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerViewController.h; sourceTree = "<group>"; };
+		5BF93EFC2087234200783CAE /* NSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerViewController.m; sourceTree = "<group>"; };
+		6D09C049B25F633994FA94A0 /* Pods-ReactiveObjCUseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveObjCUseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveObjCUseDemo/Pods-ReactiveObjCUseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F03CEA4D0A99549B156DAA2 /* libPods-ReactiveObjCUseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveObjCUseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4B841E208602B40070098E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59A29E905248FD4C19551E6 /* libPods-ReactiveObjCUseDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B325E9D209B550F00DB04A7 /* 11.多个数据都请求完后，才更新UI或类似场景 */ = {
+			isa = PBXGroup;
+			children = (
+				5B325E9A209B4FF400DB04A7 /* LiftSelectorViewController.h */,
+				5B325E9B209B4FF400DB04A7 /* LiftSelectorViewController.m */,
+			);
+			path = "11.多个数据都请求完后，才更新UI或类似场景";
+			sourceTree = "<group>";
+		};
+		5B4B8418208602B30070098E = {
+			isa = PBXGroup;
+			children = (
+				5B4B8423208602B40070098E /* ReactiveObjCUseDemo */,
+				5B4B8422208602B40070098E /* Products */,
+				DA4D6BB3496392C9AECB1722 /* Pods */,
+				E10D22CA812BABD5D5985EB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4B8422208602B40070098E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B8421208602B40070098E /* ReactiveObjCUseDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4B8423208602B40070098E /* ReactiveObjCUseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0622520948908009DF545 /* 1.RACSignal */,
+				5BA0621E20947BE3009DF545 /* 2.RACSubject */,
+				5B562BDB20A41BDC00C67945 /* 3.RACTuple,NSArray和NSDictionary */,
+				5B562BDC20A41DD100C67945 /* 4.监听UITextField的输入内容 */,
+				5B562BDD20A420F100C67945 /* 5.监听UIButton点击事件 */,
+				5B562BDE20A4268100C67945 /* 6.常见登录按钮逻辑处理 */,
+				5BC1E9872099ACFF00BC025E /* 7.通知 */,
+				5BC1E98120999A5500BC025E /* 8.代替代理 */,
+				5BC1E9852099ACBA00BC025E /* 9.代替KVO监听（观察值变化） */,
+				5BC1E98D2099CFB800BC025E /* 10.发送验证码 */,
+				5B325E9D209B550F00DB04A7 /* 11.多个数据都请求完后，才更新UI或类似场景 */,
+				5B4E1122209C30CC0054C3C9 /* 12.RAC常用的宏 */,
+				5B7256AF20A040D500B8F562 /* 13.RAC过滤和忽略 */,
+				5B7256AE20A040AC00B8F562 /* 14.RAC组合和聚合 */,
+				5B50E3EF209D82A00037B7ED /* 15.绑定和映射 */,
+				5B4E1129209C649A0054C3C9 /* 16.连接类 */,
+				5B4B8424208602B40070098E /* AppDelegate.h */,
+				5B4B8425208602B40070098E /* AppDelegate.m */,
+				5B81E3172086369F0054E6FA /* HomeViewController.h */,
+				5B81E3182086369F0054E6FA /* HomeViewController.m */,
+				5B4E1123209C31030054C3C9 /* BaseViewController.h */,
+				5B4E1124209C31030054C3C9 /* BaseViewController.m */,
+				5B81E313208635030054E6FA /* PrefixHeader.pch */,
+				5B4B842D208602BE0070098E /* Assets.xcassets */,
+				5B4B842F208602BE0070098E /* LaunchScreen.storyboard */,
+				5B4B8432208602BE0070098E /* Info.plist */,
+				5B4B8433208602BE0070098E /* main.m */,
+			);
+			path = ReactiveObjCUseDemo;
+			sourceTree = "<group>";
+		};
+		5B4E1122209C30CC0054C3C9 /* 12.RAC常用的宏 */ = {
+			isa = PBXGroup;
+			children = (
+				5B4E1126209C40F30054C3C9 /* RacHongViewController.h */,
+				5B4E1127209C40F30054C3C9 /* RacHongViewController.m */,
+			);
+			path = "12.RAC常用的宏";
+			sourceTree = "<group>";
+		};
+		5B4E1129209C649A0054C3C9 /* 16.连接类 */ = {
+			isa = PBXGroup;
+			children = (
+				5B4E112A209C64AD0054C3C9 /* RACMulticastConnectionVC.h */,
+				5B4E112B209C64AD0054C3C9 /* RACMulticastConnectionVC.m */,
+			);
+			path = "16.连接类";
+			sourceTree = "<group>";
+		};
+		5B50E3EF209D82A00037B7ED /* 15.绑定和映射 */ = {
+			isa = PBXGroup;
+			children = (
+				5B50E3F0209D82C40037B7ED /* BindViewController.h */,
+				5B50E3F1209D82C40037B7ED /* BindViewController.m */,
+			);
+			path = "15.绑定和映射";
+			sourceTree = "<group>";
+		};
+		5B562BDB20A41BDC00C67945 /* 3.RACTuple,NSArray和NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B8443208608640070098E /* NSArrayAndDictionaryViewController.h */,
+				5B4B8444208608640070098E /* NSArrayAndDictionaryViewController.m */,
+				5BA0622920949062009DF545 /* KFC.h */,
+				5BA0622A20949062009DF545 /* KFC.m */,
+				5BA0622720948FAE009DF545 /* kfc.plist */,
+			);
+			path = "3.RACTuple,NSArray和NSDictionary";
+			sourceTree = "<group>";
+		};
+		5B562BDC20A41DD100C67945 /* 4.监听UITextField的输入内容 */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B8446208608740070098E /* TextFieldViewController.h */,
+				5B4B8447208608740070098E /* TextFieldViewController.m */,
+			);
+			path = "4.监听UITextField的输入内容";
+			sourceTree = "<group>";
+		};
+		5B562BDD20A420F100C67945 /* 5.监听UIButton点击事件 */ = {
+			isa = PBXGroup;
+			children = (
+				5B81E30F208634D00054E6FA /* ButtonClickViewController.h */,
+				5B81E310208634D00054E6FA /* ButtonClickViewController.m */,
+			);
+			path = "5.监听UIButton点击事件";
+			sourceTree = "<group>";
+		};
+		5B562BDE20A4268100C67945 /* 6.常见登录按钮逻辑处理 */ = {
+			isa = PBXGroup;
+			children = (
+				5BF93EEF20871E2700783CAE /* LoginButtonClickViewController.h */,
+				5BF93EF020871E2700783CAE /* LoginButtonClickViewController.m */,
+			);
+			path = "6.常见登录按钮逻辑处理";
+			sourceTree = "<group>";
+		};
+		5B7256AE20A040AC00B8F562 /* 14.RAC组合和聚合 */ = {
+			isa = PBXGroup;
+			children = (
+				5B7256AB20A0215A00B8F562 /* RACZuheViewController.h */,
+				5B7256AC20A0215A00B8F562 /* RACZuheViewController.m */,
+			);
+			path = "14.RAC组合和聚合";
+			sourceTree = "<group>";
+		};
+		5B7256AF20A040D500B8F562 /* 13.RAC过滤和忽略 */ = {
+			isa = PBXGroup;
+			children = (
+				5B7256B020A040E900B8F562 /* RACGuolvViewController.h */,
+				5B7256B120A040E900B8F562 /* RACGuolvViewController.m */,
+			);
+			path = "13.RAC过滤和忽略";
+			sourceTree = "<group>";
+		};
+		5BA0621E20947BE3009DF545 /* 2.RACSubject */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B843D2086080D0070098E /* RACSubjectViewController.h */,
+				5B4B843E2086080D0070098E /* RACSubjectViewController.m */,
+				5BA0622220948032009DF545 /* SubjectView.h */,
+				5BA0622320948032009DF545 /* SubjectView.m */,
+			);
+			path = 2.RACSubject;
+			sourceTree = "<group>";
+		};
+		5BA0622520948908009DF545 /* 1.RACSignal */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B843A208607CB0070098E /* RACSignalViewController.h */,
+				5B4B843B208607CB0070098E /* RACSignalViewController.m */,
+			);
+			path = 1.RACSignal;
+			sourceTree = "<group>";
+		};
+		5BC1E98120999A5500BC025E /* 8.代替代理 */ = {
+			isa = PBXGroup;
+			children = (
+				5BF93EF5208722E500783CAE /* DelegateViewController.h */,
+				5BF93EF6208722E500783CAE /* DelegateViewController.m */,
+				5BC1E98220999A9D00BC025E /* DelegateView.h */,
+				5BC1E98320999A9D00BC025E /* DelegateView.m */,
+			);
+			path = "8.代替代理";
+			sourceTree = "<group>";
+		};
+		5BC1E9852099ACBA00BC025E /* 9.代替KVO监听（观察值变化） */ = {
+			isa = PBXGroup;
+			children = (
+				5BF93EF82087231800783CAE /* KVOViewController.h */,
+				5BF93EF92087231800783CAE /* KVOViewController.m */,
+			);
+			path = "9.代替KVO监听（观察值变化）";
+			sourceTree = "<group>";
+		};
+		5BC1E9872099ACFF00BC025E /* 7.通知 */ = {
+			isa = PBXGroup;
+			children = (
+				5BF93EF2208722BC00783CAE /* NotificationViewController.h */,
+				5BF93EF3208722BC00783CAE /* NotificationViewController.m */,
+			);
+			path = "7.通知";
+			sourceTree = "<group>";
+		};
+		5BC1E98D2099CFB800BC025E /* 10.发送验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				5BF93EFB2087234200783CAE /* NSTimerViewController.h */,
+				5BF93EFC2087234200783CAE /* NSTimerViewController.m */,
+			);
+			path = "10.发送验证码";
+			sourceTree = "<group>";
+		};
+		DA4D6BB3496392C9AECB1722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F15A2A161F08764C1C38D /* Pods-ReactiveObjCUseDemo.debug.xcconfig */,
+				6D09C049B25F633994FA94A0 /* Pods-ReactiveObjCUseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E10D22CA812BABD5D5985EB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F03CEA4D0A99549B156DAA2 /* libPods-ReactiveObjCUseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4B8420208602B40070098E /* ReactiveObjCUseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B8437208602BE0070098E /* Build configuration list for PBXNativeTarget "ReactiveObjCUseDemo" */;
+			buildPhases = (
+				A0F8001C8F06146B259997F0 /* [CP] Check Pods Manifest.lock */,
+				5B4B841D208602B40070098E /* Sources */,
+				5B4B841E208602B40070098E /* Frameworks */,
+				5B4B841F208602B40070098E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveObjCUseDemo;
+			productName = ReactiveObjCUseDemo;
+			productReference = 5B4B8421208602B40070098E /* ReactiveObjCUseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4B8419208602B30070098E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = XieHenry;
+				TargetAttributes = {
+					5B4B8420208602B40070098E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5B4B841C208602B30070098E /* Build configuration list for PBXProject "ReactiveObjCUseDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4B8418208602B30070098E;
+			productRefGroup = 5B4B8422208602B40070098E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4B8420208602B40070098E /* ReactiveObjCUseDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4B841F208602B40070098E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B8431208602BE0070098E /* LaunchScreen.storyboard in Resources */,
+				5BA0622820948FAE009DF545 /* kfc.plist in Resources */,
+				5B4B842E208602BE0070098E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0F8001C8F06146B259997F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveObjCUseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4B841D208602B40070098E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF93EF120871E2700783CAE /* LoginButtonClickViewController.m in Sources */,
+				5B7256AD20A0215A00B8F562 /* RACZuheViewController.m in Sources */,
+				5B4E1125209C31030054C3C9 /* BaseViewController.m in Sources */,
+				5B4B8434208602BE0070098E /* main.m in Sources */,
+				5BF93EFD2087234200783CAE /* NSTimerViewController.m in Sources */,
+				5BA0622B20949062009DF545 /* KFC.m in Sources */,
+				5BF93EF7208722E500783CAE /* DelegateViewController.m in Sources */,
+				5BF93EFA2087231800783CAE /* KVOViewController.m in Sources */,
+				5B4B8445208608640070098E /* NSArrayAndDictionaryViewController.m in Sources */,
+				5BF93EF4208722BC00783CAE /* NotificationViewController.m in Sources */,
+				5B325E9C209B4FF400DB04A7 /* LiftSelectorViewController.m in Sources */,
+				5B4B8448208608740070098E /* TextFieldViewController.m in Sources */,
+				5B4E1128209C40F30054C3C9 /* RacHongViewController.m in Sources */,
+				5B81E3192086369F0054E6FA /* HomeViewController.m in Sources */,
+				5BA0622420948032009DF545 /* SubjectView.m in Sources */,
+				5B4E112C209C64AD0054C3C9 /* RACMulticastConnectionVC.m in Sources */,
+				5B4B8426208602B40070098E /* AppDelegate.m in Sources */,
+				5B4B843F2086080D0070098E /* RACSubjectViewController.m in Sources */,
+				5B81E311208634D00054E6FA /* ButtonClickViewController.m in Sources */,
+				5B4B843C208607CB0070098E /* RACSignalViewController.m in Sources */,
+				5BC1E98420999A9D00BC025E /* DelegateView.m in Sources */,
+				5B7256B220A040E900B8F562 /* RACGuolvViewController.m in Sources */,
+				5B50E3F2209D82C40037B7ED /* BindViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B4B842F208602BE0070098E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4B8430208602BE0070098E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4B8435208602BE0070098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B4B8436208602BE0070098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4B8438208602BE0070098E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5F15A2A161F08764C1C38D /* Pods-ReactiveObjCUseDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZK33WLG48;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveObjCUseDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ReactiveObjCUseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"ReactiveObjC\"",
+					"-framework",
+					"\"Foundation\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gogo-talk.ReactiveObjCUseDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4B8439208602BE0070098E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D09C049B25F633994FA94A0 /* Pods-ReactiveObjCUseDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZK33WLG48;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveObjCUseDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ReactiveObjCUseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"ReactiveObjC\"",
+					"-framework",
+					"\"Foundation\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gogo-talk.ReactiveObjCUseDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4B841C208602B30070098E /* Build configuration list for PBXProject "ReactiveObjCUseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B8435208602BE0070098E /* Debug */,
+				5B4B8436208602BE0070098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B8437208602BE0070098E /* Build configuration list for PBXNativeTarget "ReactiveObjCUseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B8438208602BE0070098E /* Debug */,
+				5B4B8439208602BE0070098E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4B8419208602B30070098E /* Project object */;
+}
